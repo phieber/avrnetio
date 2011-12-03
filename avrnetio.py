@@ -129,6 +129,12 @@ class Avrnetio(object):
         data = map(self.__hex_string_to_int,data)
         return data
 
+    def set_port(self, port, value):
+        return self.__send_request("io set port " + str(port) + " " + str(value))
+
+    def set_ddr(self, port, value):
+        return self.__send_request("io set ddr "+str(port)+" "+str(value))
+
     # remove 'OK' from the given output
     def rm_ok(self, output):
         if 'OK' in output: output.remove('OK')
