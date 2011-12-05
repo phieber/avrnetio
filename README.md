@@ -8,7 +8,7 @@ This includes on the hardware side the commercial Pollin AVR-NET-IO, wich gave t
 The software consists of a Python class to represent the possibilities of 
 the product and example code to show how to use it.
 
-Find more information on <http://pklaus.github.com/avrnetio>.
+Find more information on <http://phieber.github.com/avrnetio>.
 
 ## Moving Forward
 
@@ -37,3 +37,6 @@ Philipp Klaus
 * philipp.l.klaus AT web.de
 
 
+Patrick Hieber
+
+* patrick.hieber AT gmx.net
